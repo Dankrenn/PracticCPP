@@ -4,6 +4,7 @@
 #include "Lab2.h"
 #include "Lab3.h"
 #include "Lab4.h"
+#include "Lab5.h"
 
 int main() {
 	setlocale(LC_ALL, "RUS");
@@ -29,6 +30,8 @@ int main() {
 		lab4.Show();
 		break;
 	case 5:
+		Lab5 lab5 = Lab5();
+		lab5.Show();
 		break;
 	case 6:
 		break;
